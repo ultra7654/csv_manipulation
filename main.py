@@ -1,4 +1,8 @@
 import pandas as p
 
 def read_data():
-    p.read_csv("tinder_")
+    set = p.read_csv("dataset.csv")
+    print(len(set.columns))
+    print()
+
+read_data()
