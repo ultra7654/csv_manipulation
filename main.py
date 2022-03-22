@@ -1,4 +1,4 @@
-import pandas
+import pandas as p
 
-print("Hello World!")
-print('je ne s  ais pas ')
+def read_data():
+    p.read_csv("tinder_")
