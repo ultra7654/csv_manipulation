@@ -8,9 +8,22 @@
     <!-- Tailwind script loading -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>NFT Data Science</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        grayTea: '#151417',
+                        purpleTea: '#3f394a',
+                        electricTea: '#8745ff'
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
-<body>
+<body class="bg-grayTea">
     <header class="flex flex-col w-full h-10">
         <h2></h2>
         <ul class="w-30%">
