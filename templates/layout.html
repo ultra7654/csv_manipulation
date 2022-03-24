@@ -18,7 +18,8 @@
                         electricTea: '#8745ff'
                     },
                     fontFamily: {
-                        'synco': 'Syncopate'
+                        'synco': 'Syncopate',
+                        'noto': 'Noto Sans JP'
                     }
 
                 }
@@ -28,10 +29,10 @@
 </head>
 
 <body class="bg-grayTea">
-    <header class="flex flex-col w-full h-10">
-        <h2>The NFT News</h2>
+    <header class="flex justify-center items-center flex-col w-full h-10">
+        <h2 class="text-white">The NFT News</h2>
         <ul class="">
-            <li class=""></li>
+            <li class="text-white"></li>
         </ul>
     </header>
     {% block content %}
@@ -42,6 +43,7 @@
 </body>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 </style>
 
 </html>
