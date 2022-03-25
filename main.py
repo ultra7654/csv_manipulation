@@ -1,8 +1,7 @@
 import pandas as p
 
-def read_data():
-    set = p.read_csv("dataset.csv")
-    print(len(set.columns))
-    print()
+def main():
+    print("main")
 
-read_data()
+if __name__ == "__main__":
+    main()
